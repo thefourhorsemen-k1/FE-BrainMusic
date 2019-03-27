@@ -1,0 +1,55 @@
+.border {
+  display: block;
+  width: 160px;
+  height: 3px;
+  background: #3498db;
+  margin: auto auto 40px;
+}
+
+a {
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+a img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+}
+
+a:hover > img {
+  filter: none;
+}
+
+.about-top {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+
+.about-bottom {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+.info-left img {
+  margin-top: 60px;
+}
+
+.info-right-text {
+  margin-top: 60px;
+}
+
+.carousel-caption {
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}

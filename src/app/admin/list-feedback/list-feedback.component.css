@@ -1,0 +1,11 @@
+.container-fluid {
+  height: 100vh;
+  padding-top: 100px !important;
+}
+
+.fas {
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}

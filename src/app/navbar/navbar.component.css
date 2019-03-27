@@ -1,0 +1,25 @@
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(0, 0, 0, 0.3) !important;
+  font-size: 20px !important;
+  margin: 0 !important;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.navbar-nav li a {
+  color: #fff;
+  padding-right: 10px;
+}
+
+.navbar-nav li a:hover {
+  color: #7bc0ff !important;
+}
+
+.navbar-expand-lg .navbar-toggler {
+  border-color: transparent;
+}
+
+.nav-link {
+  cursor: pointer;
+}

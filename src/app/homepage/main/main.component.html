@@ -1,0 +1,66 @@
+<div class="bd-example">
+  <div class="background" style="width: 100vw;height: 40%">
+    <img src="assets/background/source.gif" class="d-block w-100" alt="1">
+    <span class="button" (click)="playButton()">
+          <button mat-button></button>
+           </span>
+    <div class="carousel-caption d-none d-md-block">
+      <h1 style="color: black; font-weight: bolder">Chill Out Song</h1>
+      <br>
+      <div class="sliders" style="color: black">
+        Volume:
+        <mat-slider
+          min="0"
+          max="1"
+          step="0.001"
+          value="{{audio.volume}}"
+          (change)="setVolume($event.value)">
+        </mat-slider>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <h3>Welcome to the future of music</h3>
+  <p><em>We love music!</em></p>
+  <p>We have created a fictional music website</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Music with brain</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="assets/background/download.jpeg" alt="Random name">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Âm nhạc có tác dụng kích thích não bộ hoạt động nhanh và nhiều hơn bình thường. Với những bản nhạc có
+          giai điệu nhanh sẽ giúp con người tỉnh táo, năng động và nhạy bén hơn khi xử lý những tình huống
+          trong cuộc sống. Còn khi nghe những bản nhạc yêu thích, chúng ta sẽ cảm thấy thích thú hơn với những
+          việc mình đang làm ví dụ như học tập, làm việc</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Music with sleep</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="assets/background/download2.jpeg" alt="Random name">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Sau một ngày làm việc căng thẳng và mệt mỏi, cơ thể chúng ta thường không có được giấc ngủ sâu và
+          ngon. Để giảm những căng thẳng và mệt mỏi đó, chúng ta nên nghe một vài bản nhạc nhẹ trước khi đi
+          ngủ sẽ giúp đầu óc được thoải mái để có được một giấc ngủ ngon. Đối với những người muốn nghe nhạc
+          khi ngủ thì chỉ nên nghe nhạc không lời, vì khi nghe nhạc có lời, một phần não bộ của chúng ta tiếp
+          tục hoạt động khi nghe những ca từ và sẽ cố suy nghĩ về nó.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Music make you feel happier</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="assets/background/images.jpeg" alt="Random name">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Nếu muốn cải thiện tâm trạng, hãy nghe bản nhạc mà bạn yêu thích trong vòng 15 phút nhé. Đó là tất cả
+          những gì bạn cần để có được tâm trạng thoải mái.</p>
+      </div>
+    </div>
+  </div>
+</div>
